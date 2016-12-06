@@ -23,6 +23,7 @@
   # Escape to normal mode
   'j k': 'vim-mode-plus:reset-normal-mode'
   'k j': 'vim-mode-plus:reset-normal-mode'
+  'v n': 'pane:split-right'
 # 'atom-workspace':
 #   'ctrl-shift-p': 'core:move-up'
 #   'ctrl-p': 'core:move-down'
