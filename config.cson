@@ -1,0 +1,95 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "9a48e4db-0f60-43a4-9588-6717fb60a185"
+  "atom-material-ui":
+    colors: {}
+  "autocomplete-python":
+    useKite: false
+  "autocomplete-ruby":
+    rsensePath: "/Users/toshiemon18/.rbenv/shims/rsense"
+  "color-picker":
+    automaticReplace: true
+  core:
+    audioBeep: false
+    closeEmptyWindows: false
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "linter-markdown"
+      "markdown-preview-plus"
+      "project-manager"
+      "language-gfm"
+      "terminal-plus"
+      "japanese-menu"
+      "vim-mode"
+    ]
+    packagesWithKeymapsDisabled: []
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "monokai-complete-syntax"
+    ]
+  editor:
+    fontFamily: "Ricty"
+    preferredLineLength: 95
+    scrollPastEnd: true
+    showIndentGuide: true
+    tabType: "soft"
+  "exception-reporting":
+    userId: "4627b143-b886-d165-5fe8-52b4cccbef2c"
+  "file-icons":
+    forceShow: true
+  "highlight-line":
+    enableSelectionBorder: true
+    enableUnderline: true
+  jekyll: {}
+  linter:
+    errorPanelHeight: 86
+  "markdown-pdf":
+    border: "8mm"
+    format: "A3"
+  "markdown-preview-plus":
+    enableLatexRenderingByDefault: true
+    useGitHubStyle: true
+  "platformio-ide-terminal":
+    ansiColors:
+      normal:
+        black: "#222222"
+        blue: "#3a6ef2"
+        cyan: "#66d9ef"
+        green: "#a6e22e"
+        magenta: "#f92a72"
+        red: "#f92a72"
+        white: "#cfcfc2"
+        yellow: "#fd9720"
+      zBright:
+        brightBlack: "#75715e"
+        brightBlue: "#366eff"
+        brightCyan: "#66d9ef"
+        brightGreen: "#a6e22e"
+        brightMagenta: "#f92a72"
+        brightRed: "#f92a72"
+        brightWhite: "#f8f8f2"
+        brightYellow: "#e6db74"
+    core:
+      shell: "/usr/local/bin/zsh"
+      workingDirectory: "Active File"
+    style:
+      fontFamily: "Ricty"
+      fontSize: "13"
+    toggles: {}
+  "seti-syntax":
+    dynamicColor: false
+  "seti-ui":
+    compactView: true
+  "terminal-plus":
+    core:
+      autoRunCommand: "zsh"
+      shell: "/usr/local/bin/zsh"
+      workingDirectory: "Active File"
+  welcome:
+    showOnStartup: false
+".gfm.source":
+  editor:
+    preferredLineLength: 95
+    softWrapAtPreferredLineLength: true
