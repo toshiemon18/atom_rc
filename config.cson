@@ -96,8 +96,7 @@
       autoRunCommand: "zsh"
       shell: "/usr/local/bin/zsh"
       workingDirectory: "Active File"
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
   welcome:
     showOnStartup: false
 ".gfm.source":
