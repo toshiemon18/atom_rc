@@ -23,6 +23,15 @@
       "japanese-menu"
       "vim-mode"
     ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      ".pyc"
+    ]
     packagesWithKeymapsDisabled: []
     telemetryConsent: "no"
     themes: [
@@ -87,6 +96,8 @@
       autoRunCommand: "zsh"
       shell: "/usr/local/bin/zsh"
       workingDirectory: "Active File"
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
 ".gfm.source":
