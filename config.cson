@@ -17,11 +17,10 @@
     disabledPackages: [
       "linter-markdown"
       "markdown-preview-plus"
-      "project-manager"
       "language-gfm"
       "terminal-plus"
       "japanese-menu"
-      "vim-mode"
+      "project-manager"
     ]
     ignoredNames: [
       ".git"
@@ -40,6 +39,7 @@
     ]
   editor:
     fontFamily: "Ricty"
+    fontSize: 13
     preferredLineLength: 95
     scrollPastEnd: true
     showIndentGuide: true
