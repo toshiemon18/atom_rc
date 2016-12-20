@@ -1,1 +1,16 @@
-[]
+[
+  {
+    title: "Dnn Srs"
+    group: "research"
+    paths: [
+      "/Users/toshiemon18/workspace/research/dnn_srs"
+    ]
+  }
+  {
+    title: "Learning Elixir"
+    group: "my_project"
+    paths: [
+      "/Users/toshiemon18/workspace/github/learning_elixir"
+    ]
+  }
+]
