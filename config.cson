@@ -2,8 +2,13 @@
   "atom-beautify":
     general:
       _analyticsUserId: "9a48e4db-0f60-43a4-9588-6717fb60a185"
+  "atom-clock":
+    showClockIcon: true
   "atom-material-ui":
     colors: {}
+  "autocomplete-elixir":
+    elixirPath: "/usr/local/bin/elixir"
+    erlangHome: "/usr/local/bin/erl"
   "autocomplete-python":
     useKite: false
   "autocomplete-ruby":
@@ -19,8 +24,6 @@
       "markdown-preview-plus"
       "language-gfm"
       "terminal-plus"
-      "japanese-menu"
-      "project-manager"
     ]
     ignoredNames: [
       ".git"
@@ -38,6 +41,7 @@
       "monokai-complete-syntax"
     ]
   editor:
+    autoIndentOnPaste: false
     fontFamily: "Ricty"
     fontSize: 13
     preferredLineLength: 95
@@ -60,6 +64,10 @@
   "markdown-preview-plus":
     enableLatexRenderingByDefault: true
     useGitHubStyle: true
+  pigments:
+    groupPaletteColors: "by file"
+    markerType: "dot"
+    mergeColorDuplicates: true
   "platformio-ide-terminal":
     ansiColors:
       normal:
@@ -99,6 +107,11 @@
   "tree-view": {}
   welcome:
     showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
+".elixir.text":
+  editor:
+    autoIndentOnPaste: true
 ".gfm.source":
   editor:
     preferredLineLength: 95
