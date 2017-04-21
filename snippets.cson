@@ -19,3 +19,12 @@
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+
+# argparse snippet
+'.source.python':
+  'Argparse add_argument':
+    'prefix': 'add_'
+    'body':   'parser.add_argument(${1:short_opt}, ${2:long_opt}, type=${3:type}, help=${4:help})'
+  'Argparse Initialization':
+    'prefix': 'argp'
+    'body':   'parser = argparse.ArgumentParser(description=${1:"describe"})'
